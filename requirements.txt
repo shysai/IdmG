@@ -1,0 +1,11 @@
+reqs = """
+gradio
+insightface
+ultralytics
+opencv-python-headless
+onnxruntime
+numpy
+matplotlib
+"""
+with open("requirements.txt", "w") as f:
+    f.write(reqs)
